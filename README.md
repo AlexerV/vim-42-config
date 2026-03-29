@@ -47,10 +47,11 @@ chmod +x setup_vim_42.sh
 
 ---
 
-| Ligne                                                | Explication                       |
-| ---------------------------------------------------- | --------------------------------- |
-| `set list`                                           | Affiche les caractères invisibles |
-| `set listchars=tab:│\ ,trail:.,precedes:<,extends:>` | Personnalise l’affichage          |
+### Caractères invisibles
+| Ligne                                                | Explication                                              |
+| ---------------------------------------------------- | -------------------------------------------------------- |
+| `set list`                                           | Affiche les caractères invisibles                        |
+| `set listchars=tab:│\ ,trail:.,precedes:<,extends:>` | Personnalise l’affichage (tabs, espaces, lignes longues) |
 
 ---
 
